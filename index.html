@@ -1,0 +1,233 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Firma</title>
+    <link rel="stylesheet" href="style.css">
+	<meta http-equiv="X-UA-Compatibile" content="ie=edge">
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <script src="pace.js"></script>
+	
+	
+
+	
+	
+    <script src="https://cdn.jsdelivr.net/npm/jquery-bez@1.0.11/src/jquery.bez.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TweenMax.min.js"></script>
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&display=swap" rel="stylesheet">
+	<link href ="https://fonts.googleapis.com/css?family=Aldrich&displayl=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
+	<link href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css" rel="stylesheet">
+</head>
+<body>
+
+        
+
+        <div id="preloader">
+            <div class="ponny">FIRMA©</div>
+        </div>
+
+        <script>
+
+        paceOptions = {
+        ajax: true,
+        document: true,
+        eventLag: false
+        };
+
+        Pace.on('done', function() {
+        $('.p').delay(500).animate({top: '30%', opacity: '0'}, 3000, $.bez([0.19,1,0.22,1]));
+
+
+        $('#preloader').delay(1500).animate({top: '-100%'}, 2000, $.bez([0.19,1,0.22,1]));
+
+        TweenMax.from(".title", 2, {
+             delay: 1.8,
+                  y: 10,
+                  opacity: 0,
+                  ease: Expo.easeInOut
+            })
+       });
+
+      </script>
+		
+		
+		
+		<header>
+			<div class="container">
+				<nav>
+				   <div class="nav-brand">
+					   <a href="index.html">
+					   <img src="images/logo.png">
+					   </a>
+				   </div>
+				
+					
+					<div class="menu-icons open">
+						<i class="icon ion-md-menu"></i>
+					</div>
+					
+					
+					<ul class="nav-list">
+						<div class="menu-icons close">
+						<i class="icon ion-md-close"></i>
+						</div>
+						<li class="nav-item">
+						<a href="#" class="nav-link current">Home</a>
+						<a href="#" class="nav-link">Destinations</a>
+						<a href="#" class="nav-link">Pircing</a>
+						<a href="#" class="nav-link">Booking</a>
+						<a href="#" class="nav-link">About</a>
+						
+						
+						</li>
+					</ul>
+				</nav>
+			</div>
+			
+			
+		</header>
+		
+		
+		
+		
+		<main>
+		
+		<section class="hero">
+		<div class="container">
+		<div class="main-message">
+		<h3>Nasza  firma</h3>
+		<h2>Jest genialna</h2>
+		<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+		Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+		when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+		It has survived not only five centuries,
+		but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+		<div class="cta">
+		<a href="#" class="btn">Sprawdź teraz</a>
+		</div>
+		</div>
+		</div>
+		</section>
+		
+		
+		
+		
+		
+		
+		<section class="experience-outdoors">
+		<div class="container">
+		<div class="title-heading">
+		<h3>Doświadczenie</h3>
+		<h3>wieloletnia praktyka w zawodzie</h3>
+		<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+		</div>
+		
+		<div class="activities-grid">
+		<div class="activities-grid-item star-gazing">
+		<i class="icon ion-md-star"></i>
+		<h2>LOREM IPSUM</h2>
+		<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+		Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+		when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+		It has survived not only five centuries,
+		but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+		</div>
+		
+		<div class="activities-grid-item hiking">
+		<i class="icon ion-md-compass"></i>
+		<h2>LOREM IPSUM</h2>
+		<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+		Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+		when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+		It has survived not only five centuries,
+		but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+		</div>
+		
+		<div class="activities-grid-item camping">
+		<i class="icon ion-md-bonfire"></i>
+		<h2>LOREM IPSUM</h2>
+		<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+		Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+		when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+		It has survived not only five centuries,
+		but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+		</div>
+		
+		
+		</div>
+		
+		</section>
+		
+		
+		
+		
+		
+		
+		
+		
+
+		
+		
+		<section class="testimonials">
+		<div class="container">
+		<div class="testimonial">
+		<div class="testimonial-text-box">
+		
+		<i class="icon ion-md-quote"></i>
+		<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+		</div>
+		<div class="testimonial-customer">
+		<img src="images/people.png">
+		<h1></h1>
+		</div>
+		</div>
+		</div>
+		</section>
+		
+		
+		<section = class="begin-adventure">
+		<div class="container">
+		<div class="title-heading">
+		<h3>zobaczysz co to</h3>
+		<h2>Opis firmy</h2>
+		<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+		</div>
+		<div class="adventure-grid">
+		
+		<div class="adventure-grid-item">
+		<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+		Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+		when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+		It has survived not only five centuries,
+		but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+		</div>
+		<div class="adventure-grid-item">
+		<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+		Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+		when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+		It has survived not only five centuries,
+		but also the leap into electronic typesetting, remaining essentially unchanged.
+		</p>
+		</div>
+		</div>
+		<a class="btn" href="#"> Sprawdz wiecej</a>
+		</div>
+		</section>
+		
+		</main>
+		
+		<footer>
+		<p>&copy; Tomasz Topór</p>
+		</footer>
+		
+		
+		
+		
+		
+	
+		
+<script type="text/javascript" src="scripts.js"></script>
+</body>
+</html>
